@@ -1,0 +1,116 @@
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact | ICON BIOTRONICS</title>
+
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Lucide Icons -->
+    <script src="https://unpkg.com/lucide@latest"></script>
+
+    <style>
+        html {
+            scroll-behavior: smooth;
+        }
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #F3F4F6;
+            color: #1f2937;
+        }
+        .contact-card {
+            background-color: #ffffff;
+            padding: 2rem;
+            border-radius: 10px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+        .contact-card:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+        }
+    </style>
+</head>
+<body class="bg-gray-100">
+
+    <!-- Contact Section -->
+    <section class="py-20 bg-white">
+        <div class="max-w-7xl mx-auto px-6">
+            <h2 class="text-4xl font-extrabold text-center text-icon-blue mb-12">
+                Contact Us
+            </h2>
+
+            <div class="grid md:grid-cols-2 gap-12">
+                <!-- Contact Details -->
+                <div class="contact-card">
+                    <h3 class="text-2xl font-bold text-gray-800 mb-6">Reach Out to Us</h3>
+
+                    <!-- WhatsApp, Email, Address Icons with Images -->
+                    <div class="mb-6">
+                        <h4 class="text-xl font-semibold text-gray-800">Phone & WhatsApp</h4>
+                        <p class="text-gray-600 mt-2 flex items-center space-x-2">
+                            <img src="https://img.icons8.com/ios/50/000000/whatsapp.png" alt="WhatsApp" class="w-8 h-8">
+                            <a href="https://wa.me/971553252589" class="text-icon-teal hover:underline">+971 55 325 2589 (WhatsApp)</a>
+                        </p>
+                    </div>
+
+                    <div class="mb-6">
+                        <h4 class="text-xl font-semibold text-gray-800">Email</h4>
+                        <p class="text-gray-600 mt-2 flex items-center space-x-2">
+                            <img src="https://img.icons8.com/ios/50/000000/email.png" alt="Email" class="w-8 h-8">
+                            <a href="mailto:iconbiotronics.uae@gmail.com" class="text-icon-teal hover:underline">iconbiotronics.uae@gmail.com</a>
+                        </p>
+                    </div>
+
+                    <div class="mb-6">
+                        <h4 class="text-xl font-semibold text-gray-800">Address</h4>
+                        <p class="text-gray-600 mt-2 flex items-center space-x-2">
+                            <img src="https://img.icons8.com/ios/50/000000/marker.png" alt="Address" class="w-8 h-8">
+                            <span>Bur Dubai, Dubai, UAE</span>
+                        </p>
+                    </div>
+                </div>
+
+                <!-- Contact Form -->
+                <div class="contact-card">
+                    <h3 class="text-2xl font-bold text-gray-800 mb-6">Send Us a Message</h3>
+
+                    <form action="#" method="POST">
+                        <div class="mb-6">
+                            <label for="name" class="block text-gray-700 font-semibold">Full Name</label>
+                            <input type="text" id="name" name="name" class="w-full p-3 border border-gray-300 rounded-md mt-2" placeholder="Your Name" required>
+                        </div>
+
+                        <div class="mb-6">
+                            <label for="email" class="block text-gray-700 font-semibold">Email Address</label>
+                            <input type="email" id="email" name="email" class="w-full p-3 border border-gray-300 rounded-md mt-2" placeholder="Your Email" required>
+                        </div>
+
+                        <div class="mb-6">
+                            <label for="message" class="block text-gray-700 font-semibold">Message</label>
+                            <textarea id="message" name="message" rows="4" class="w-full p-3 border border-gray-300 rounded-md mt-2" placeholder="Your Message" required></textarea>
+                        </div>
+
+                        <button type="submit" class="w-full bg-icon-teal text-white font-semibold text-lg py-3 rounded-md hover:bg-teal-600 transition">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-900 text-gray-300 py-12">
+        <div class="max-w-7xl mx-auto px-6 text-center">
+            <p class="text-lg">© 2025 ICON BIOTRONICS. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+    <!-- Script to Initialize Icons -->
+    <script>
+        lucide.createIcons();
+    </script>
+</body>
+</html>
+
+<a href="contact.html" class="hover:text-icon-blue">Contact</a>
