@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title> ICON BIOTRONICS | Biomedical Engineering Solutions</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://unpkg.com/lucide@latest"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        "icon-blue": "#004AAD",
+                        "icon-teal": "#00A896",
+                        "icon-bg": "#F3F4F6",
+                        "whatsapp-green": "#25D366",
+                    },
+                },
+            },
+        };
+    </script>
+    <style>
+        html { scroll-behavior: smooth; }
+        body { font-family: 'Inter', sans-serif; color: #1f2937; }
+        .hero-gradient { background: linear-gradient(180deg, #f3f4f6 0%, #e7f7f5 100%); }
+    </style>
+</head>
+<body class="bg-icon-bg">
+
+<!-- HEADER (with links to separate pages) -->
+<header class="sticky top-0 z-50 bg-white shadow-xl">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="flex justify-between items-center py-4 md:justify-start md:space-x-10">
+            <div class="flex justify-start lg:w-0 lg:flex-1">
+                <a href="index.html" class="flex items-center space-x-2 text-3xl font-extrabold text-icon-blue">
+                    <i data-lucide="zap" class="h-6 w-6 text-icon-teal"></i>
+                    <span>ICON BIOTRONICS</span>
+                </a>
+            </div>
+            <nav class="hidden md:flex space-x-8 font-semibold text-gray-700">
+                <a href="services.html" class="hover:text-icon-blue">Core Services</a>
+                <a href="catalog.html" class="hover:text-icon-blue">Product Catalog</a>
+                <a href="dental.html" class="hover:text-icon-blue">Dental Solutions</a>
+                <a href="compliance.html" class="hover:text-icon-blue">Quality Assurance</a>
+                <a href="support.html" class="hover:text-icon-blue">Support</a>
+                <a href="achievements.html" class="hover:text-icon-blue">Achievements</a>
+                <a href="contact.html" class="hover:text-icon-blue">Contact</a>
+            </nav>
+        </div>
+    </div>
+</header>
+
+<!-- HERO (Home Section) -->
+<section id="hero" class="hero-gradient min-h-screen flex items-center justify-center text-center px-6">
+    <div>
+        <h1 class="text-5xl md:text-6xl font-extrabold text-icon-blue mb-6">Biomedical Engineering Solutions</h1>
+        <p class="text-xl md:text-2xl text-gray-600 max-w-3xl mx-auto mb-8">
+            Reliable, compliant, and innovative medical equipment and dental systems engineered to perfection.
+        </p>
+        <a href="contact.html" class="inline-block bg-icon-teal text-white font-semibold text-xl px-10 py-4 rounded-lg shadow-lg hover:bg-teal-600 transition">Get a Consultation</a>
+    </div>
+</section>
+
+<!-- FOOTER -->
+<footer class="bg-gray-900 text-gray-300 py-12">
+    <div class="max-w-7xl mx-auto px-6 text-center">
+        <p class="text-lg">© 2025 ICON BIOTRONICS. All Rights Reserved.</p>
+    </div>
+</footer>
+
+</body>
+</html>
+
+<a href="dental.html" class="hover:text-icon-blue">Dental Solutions</a>
+<a href="compliance.html" class="hover:text-icon-blue">Quality Assurance</a>
+<a href="support.html" class="hover:text-icon-blue">Support</a>
+<a href="achievements.html" class="hover:text-icon-blue">Achievements</a>
+<a href="contact.html" class="hover:text-icon-blue">Contact</a>
